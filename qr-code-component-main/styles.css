@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(212, 45%, 89%);
+    border-radius: 20px;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+}
+.wrapper {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    /*width:100%;*/
+    
+    /*height:auto; --> SOMEHOW ADDING HEIGHT AUTO DISABLED MARGIN ON THE RIGHT, 
+    I WOULD ADD MARGIN AND ON THE LFT THERE WOULD BE A MARGIN BUT ON THE RIGHT NONE
+   */
+    /*max-width: calc(100% - 40px); --> TRIED TO ADD MARGIN ON BOTH SIDES UNTILL I 
+    NOTICED IT WAS BECAUSE OF HEIGHT*/ 
+    margin:30px;
+   
+    
+}
+.qr-container { 
+    display: inline-block; 
+    padding:20px;
+    border-radius: 20px;
+}
+
+img {
+    width: 100%;
+    border-radius: 20px;
+}
+p {
+    color:hsl(216, 15%, 48%);
+    font-size: 15px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h1 {
+    color:hsl(218, 44%, 22%);
+    font-size: 20px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.attribution {
+    position: absolute;
+    bottom: 0;
+    margin-left: 53px;
+}
+
+@media (min-width: 1440px) {
+    body {
+        padding: 20px;
+    } 
+    
+
+    .wrapper {
+        width: 80%; 
+        max-width: 300px; /* Set a maximum width to prevent it from becoming too wide */
+        margin:auto;
+    }
+    /*.attribution {
+        position: static; /* Change to static positioning if you want it to flow with the content */
+        /*margin-left: 0; /* Adjust margin as needed */
+        /*text-align: right; /* Align to the right if it's positioned statically */
+    
+}
