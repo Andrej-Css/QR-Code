@@ -64,12 +64,8 @@ h1 {
 
     .wrapper {
         width: 80%; 
-        max-width: 300px; /* Set a maximum width to prevent it from becoming too wide */
+        max-width: 300px; /* Maximum width set so the Qr code wrapper doesn't fill the whole page */
         margin:auto;
     }
-    /*.attribution {
-        position: static; /* Change to static positioning if you want it to flow with the content */
-        /*margin-left: 0; /* Adjust margin as needed */
-        /*text-align: right; /* Align to the right if it's positioned statically */
     
 }
